@@ -1,0 +1,572 @@
+body {
+    margin: 0;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(41, 40, 40);
+}
+
+.pagina-principal {
+    height: 100%;
+    width: 100%;
+    background: url("../Img/fundo-site.jpg");
+    background-size: cover; 
+    display: inline-block;
+    overflow: hidden;
+    position:fixed;
+
+}
+
+
+.menu {
+    height: 100px;
+    margin-block-end: 0%; 
+    bottom: 0px;
+    right: 10px;
+    left: 0px;
+    top: 20px;
+    height: 100vh;
+    position: absolute;
+    display: inline-block;
+  
+}
+
+
+.header-1 {
+    height: 80px;
+    margin-block-end: 0%; 
+    bottom: 0px;
+    right: 10px;
+    left: 0px;
+    top: 20px;
+    padding-right: 20px;
+    
+}
+
+.header-1 ul {
+    float: right;
+    display: inline;
+    height: 70px;
+
+}
+
+.header-1 ul li {
+    display: inline-block;
+    color: #Ffffff;
+    height: 100px;
+    text-align: right;
+
+}
+
+.header-1 ul li a {
+    color: #Ffffff;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    font-size: 22px;
+    height: 100px;
+    margin: 20px;
+
+}
+
+.destaque-1 {
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #862fced7;
+    display: inline-flex;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.destaque-1 ul {
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.destaque-1 ul li a {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+
+.destaque-2 {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #862fced7;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+.destaque-2 ul {
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.destaque-2 ul li a {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+}
+
+.header-2{
+    width: 100%;
+    height: 450px;
+    padding-top: 200px;
+    text-align: center;
+
+    
+}
+   
+.frase-efeito {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.frase-efeito, h1 {
+    font-size: 40px;
+    font-family: system-ui;
+    color: #ffffff;
+
+}
+
+
+.frase-efeito, p {
+    font-size: 30px;
+    color: #Ffffff;
+    margin-top: auto;
+}
+
+/* saiba mais */
+
+.saiba_mais {
+    display: flex; 
+    width: 100%;
+}
+
+.historia-cripto {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+.historia-cripto p {
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.line {
+    width: 3px;
+    height: 490px;
+    color: #ffffff;
+    background-color: #Ffffff;
+    display: inline-block;
+}
+
+.info {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.info p {
+    width: 400px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    display: inline-flex;
+    text-align: left;
+
+}
+
+
+.blockchain {
+ width: 33%;
+ text-align: center;
+ 
+}
+
+.blockchain p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    display: inline-flex;
+    text-align: center;
+}
+
+/* BLOCKCHAIN */
+
+.conteudo {
+    width: 100%;
+    display: inline-flex;
+}
+
+.esquerda {
+    width: 49%;
+    margin-top: 20px;
+
+}
+
+.esquerda h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.economia_foto {
+    float: right;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.esquerda p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.economia_foto {
+    float: right;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.regulamentação {
+    display: flex;
+    float: right;
+    height: 200px;
+}
+
+.line_2{
+    width: 5px;
+    color: #ffffff;
+    background-color: #Ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.direita {
+    width: 49%;
+    margin-top: 20px;
+
+}
+
+.direita h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+.direita p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.acoes {
+    display: flex;
+    float: right;
+    height: 200px;
+}
+
+/* INVESTIR */
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+} 
+
+.esquerda {
+    width: 49%;
+}
+
+.ativo {
+    height: 350px;
+    display: contents;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ativo h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 0px;
+
+}
+
+.ativo img {
+    margin-left: 200px;
+    position: absolute;
+}
+
+.ativo h2 {
+    color: #Ffffff;
+    float: left;
+    margin-left: 310px;
+    height: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: x-large;
+}
+
+.BITCOIN {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.BITCOIN h1 {
+    font-size: 30px;
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+    float: left;
+}
+
+.BITCOIN p {
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+    background-color: #484a49;    
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.outras-moedas {
+    height: 260px;
+
+}
+
+.outras-moedas h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.imagem-criptos {
+    width: 200px;
+    height: 112px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.moedas {
+    margin-left: 20px;
+}
+
+.direita {
+    width: 49%;
+}
+
+.direita h1 {
+    margin-top:40px;
+
+}
+
+.grafico {
+    width: 650px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.line-1 {
+    color: #Ffffff;
+    width: 300px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+
+
+.estatistica {
+    width: 300px;
+    height: 100px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.quadro-transferencia {
+    border-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+    margin: 5px;
+    margin-top: 100px;
+    width: 500px;
+    margin-left: 70px;
+
+}
+
+.transferencia-1 {
+    width: 500px;
+    margin-right: 0px;
+    height: 300px;
+    margin-top: 0px;
+}
+
+.layout-1 {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.layout-1 ul {
+    text-align: center;
+    width: 50%;
+    list-style-type: none;
+    margin-right: 30px;
+
+
+}
+
+.compra-1 {
+    text-decoration: auto;
+    font-size: 25px;
+    font-family: arial;
+    color:blueviolet;
+}
+
+.venda-1 {
+    text-decoration: auto;
+    font-size: 25px;
+    font-family: arial;
+    color:blueviolet;
+
+}
+
+.line-2 {
+    height: 50px;
+    background-color: gray;
+    border-color: gray;
+    border-left-width: 0px;
+    margin-left: 20px;
+}
+
+.line-3 {
+    margin-top: 10px;
+    height: 0px;
+    background-color: gray;
+    border-color: gray;
+}
+
+.layout-2 h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace ;
+}
+.layout-2 input {
+    margin-right: 36%;
+    margin-left: 36%;
+    border-radius: 5px;
+    background: transparent;
+    height: 16px;
+    width: 170px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.layout-3 h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+
+.porcentagens {
+    display: inline-block;
+    margin-left: 150px;
+    margin-bottom: 10px;
+
+}
+
+.porcentagens button {
+    margin-right: 5px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    background-color: transparent;
+    color: white;
+
+}
+
+.layout-4 {
+    margin-bottom: 40px;
+}
+
+.layout-4 li {
+    list-style-type: none;
+    background-color: blueviolet;
+    border-color: gray;
+    border-radius: 20px;
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 50px;
+    
+    
+}
+.layout-4 a{
+    color: white;
+    list-style-type: none;
+    margin-left: 110px;
+    text-decoration: auto;
+    font-size: 25px;
+    
+}
